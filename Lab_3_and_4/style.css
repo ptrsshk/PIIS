@@ -5,6 +5,7 @@ html {
 }
 body {
   margin: 0;
+  padding-bottom: 100px;
 }
 .pageHeader {
   font-size: 40px;
@@ -69,7 +70,7 @@ button:active {
 }
 
 .modal {
-  position: absolute;
+  position: fixed;
   top: 0;
   display: flex;
   justify-content: center;
